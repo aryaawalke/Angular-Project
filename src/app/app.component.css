@@ -1,0 +1,21 @@
+/* Style for the horizontal divider */
+.divider {
+  border: 1.5px solid black;
+  margin: 20px 0;
+}
+
+/* Updated Style for the vertical divider between About Us and Contact Us */
+.divider-vertical {
+    border-left: 2px solid black;
+    height: 100px; /* Set the height to a specific pixel value */
+    margin: 0 20px;
+  }
+  
+  
+/* Style for the container holding About Us and Contact Us */
+.about-contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* Style for the Blackverse image */
+

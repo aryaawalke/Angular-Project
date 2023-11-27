@@ -1,0 +1,39 @@
+/* Updated Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute items equally */
+    background-color: rgb(3, 3, 3); /* Background color of the navbar */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Updated Style for the navigation items */
+.nav-links {
+    list-style-type: none;
+    display: flex; /* Use flexbox for layout */
+    margin: 0;
+    padding: 0;
+    justify-content: space-between; /* Distribute items equally */
+    width: 100%; /* Occupy the entire width of the navbar */
+}
+
+/* Updated Style for each list item */
+.nav-links li {
+    margin: 0;
+    flex: 1; /* Distribute the available space equally among items */
+}
+
+/* Updated Style for navigation links */
+/* Updated Style for navigation links with italic font */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-style: italic; /* Set the font style to italic */
+}
+
+
+/* Style for social media icons */
+.nav-links img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+}
